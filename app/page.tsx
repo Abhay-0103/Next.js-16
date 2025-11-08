@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from "@/app/components/hello";  // Capitalized import
+import Hello from "@/components/hello";  // Capitalized import
 
 const Home = () => {
     return (
