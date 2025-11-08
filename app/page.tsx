@@ -1,9 +1,12 @@
 import React from 'react';
+import Hello from "@/app/components/hello";  // Capitalized import
 
 const Home = () => {
-    console.log('What type of a components am I ?')
     return (
-        <div className="text-center ">Welcome To Next.Js</div>
+        <main>
+            <div className="text-center">Welcome To Next.Js</div>
+            <Hello />
+        </main>
     );
 };
 
